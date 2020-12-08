@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "Mulish";
+  src: local("Mulish"),
+    url(./assets/fonts/Mulish-Regular.ttf) format("truetype");
+}
+body {
+  margin: 0;
+  font-family: "Mulish";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: radial-gradient(50% 50% at 50% 50%, #252737 0%, #20222e 56.25%);
+  min-height: 100vh;
+  color: #ffffff;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+a:hover {
+  text-decoration: none;
+}

@@ -1,0 +1,136 @@
+.loginPage,
+.signupPage {
+  display: flex;
+  justify-content: center;
+}
+.authbox {
+  width: 400px;
+  background: #ffffff;
+  border: 8px solid #edd6ff;
+  box-sizing: border-box;
+  box-shadow: 8px 8px 20px 6px rgba(103, 89, 246, 0.75);
+  border-radius: 16px;
+  margin-top: 50px;
+  padding: 20px 50px;
+}
+.authbox .authBoxTop h1 {
+  color: #6875de;
+  font-size: 32px;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
+  text-align: center;
+}
+.authbox .authBoxTop .socialMediaBox {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.authbox .authBoxTop .socialMediaBox .socialLinks {
+  background: #ffffff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 6px;
+  padding: 7px;
+  margin-right: 10px;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  font-size: 25px;
+}
+.socialMediaBox .socialLinks.google svg {
+  color: #4caf50;
+}
+.socialMediaBox .socialLinks.linkedin svg {
+  color: #0e76a8;
+}
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 12px;
+  color: #816afe;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.separator::before,
+.separator::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #816afe;
+}
+.separator::before {
+  margin-right: 3em;
+}
+.separator::after {
+  margin-left: 3em;
+}
+.authForm form label {
+  color: #696f79;
+  margin-bottom: 3px;
+  font-size: 14px;
+}
+.authForm form input.form-control {
+  font-size: 14px;
+  height: 40px;
+  border: 1px solid #8692a6;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+.authForm form .passwordField {
+  position: relative;
+}
+.authForm form .passwordField .eyeLink {
+  color: #8692a6 !important;
+  position: absolute;
+  top: 30px;
+  right: 7px;
+  font-size: 20px;
+}
+.authForm form .passwordField .passwordProgressBar p {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 19px;
+  color: #ffca2d;
+}
+.authForm form .passwordField .passwordProgressBar .progressBar {
+  height: 4px;
+  border-radius: 4px;
+  background: #c4c4c4;
+  margin-top: 5px;
+}
+.authForm form .passwordField .passwordProgressBar .progressBar .success {
+  display: block;
+  width: 80%;
+  height: 4px;
+  background: #ffca2d;
+}
+.authForm form .agree {
+  color: #696f79;
+}
+.authForm form .agree a {
+  color: #816afe !important;
+  text-decoration: underline;
+}
+.authForm form .btnAuthSubmit {
+  border: 2px solid #816afe;
+  box-sizing: border-box;
+  border-radius: 50px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: #816afe;
+}
+.authFooter p,
+.authFooter p a {
+  color: #696f79;
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 0;
+}
+.authFooter p a.createAccountLink {
+  color: #816afe !important;
+  text-decoration: underline;
+}

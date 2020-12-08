@@ -1,0 +1,104 @@
+a {
+  color: #ffffff !important;
+}
+a:hover {
+  text-decoration: none;
+}
+/* Header Styles Starts Here */
+header {
+  padding-top: 20px;
+}
+.btnNav {
+  background-color: #ffffff !important;
+}
+.navbar-brand svg {
+  color: #8400ec;
+}
+.nav-item {
+  margin: 0px 15px;
+}
+.nav-item .loginLink {
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+  padding: 4px 38px;
+  width: 100px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* Header Styles Ends here */
+/* Home Page Style Starts Here */
+.homePage h1 {
+  font-size: 64px;
+  margin-top: 100px;
+  font-weight: 800;
+  font-style: normal;
+  line-height: 80px;
+}
+.homePage .homeText {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 23px;
+  margin-bottom: 60px;
+}
+.findHomeLink {
+  background-color: #6875de;
+  border-radius: 62px;
+  padding: 9px 25px;
+  line-height: 20px;
+  margin-right: 20px;
+}
+.arrowLink {
+  border: 1px solid #6875de;
+  border-radius: 50%;
+  font-size: 12px;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  text-align: center;
+  padding: 3px;
+  margin-left: 10px;
+  color: #8400ec !important;
+}
+/* Home Page Style Ends Here */
+
+.rec-arrow{
+  font-size: 62px !important;
+  padding: 21px 62px 71px 34px !important;
+  background-color: #999999 !important;
+    color: white !important;
+}
+@media only screen and (max-width: 767px) {
+  .navbar .collapse,
+  .navbar .collapsing {
+    position: absolute;
+    top: 44px;
+    background: white;
+    width: 91%;
+    left: 2%;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1;
+    text-align: center;
+  }
+  .navbar .collapse ul li a,
+  .navbar .collapsing ul li a {
+    color: #21232f !important;
+  }
+  .nav-item .loginLink {
+    border: 1px solid #21232f;
+    margin: auto;
+  }
+  .homePage h1 {
+    margin-top: 20px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .findHomeLink {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .homeText2 {
+    text-align: center;
+  }
+}
