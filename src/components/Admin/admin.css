@@ -5,6 +5,7 @@
   background: #ffffff;
   border-radius: 32px;
   padding: 100px 15px;
+  margin-top: 1rem !important;
 }
 aside ul {
   padding: 0;

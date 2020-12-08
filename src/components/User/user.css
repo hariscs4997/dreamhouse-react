@@ -5,6 +5,7 @@
   background: #ffffff;
   border-radius: 32px;
   padding: 100px 15px;
+  margin-top: 1rem !important;
 }
 aside ul {
   padding: 0;
@@ -32,6 +33,7 @@ aside ul li a.active {
   border-radius: 32px;
   padding: 15px 40px;
   height: 100%;
+  margin-top: 1rem !important;
 }
 .svgWidth {
   width: 100%;
