@@ -334,7 +334,8 @@ aside ul li a.active {
   .svgWidth {
     width: 100px;
   }
-  .findHome {
+  .findHome,
+  .imageBox {
     width: 100%;
   }
   .mainDetailBox.userSideBox {
@@ -345,5 +346,9 @@ aside ul li a.active {
   .dataList li .dataListP {
     margin-top: 20px;
     margin-bottom: 0;
+  }
+  .btnstyle {
+    padding: 5px 15px;
+    font-size: 13px;
   }
 }
