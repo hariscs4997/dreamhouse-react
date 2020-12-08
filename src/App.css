@@ -62,11 +62,11 @@ header {
 }
 /* Home Page Style Ends Here */
 
-.rec-arrow{
+.rec-arrow {
   font-size: 62px !important;
   padding: 21px 62px 71px 34px !important;
   background-color: #999999 !important;
-    color: white !important;
+  color: white !important;
 }
 @media only screen and (max-width: 767px) {
   .navbar .collapse,
@@ -93,6 +93,24 @@ header {
     margin-top: 20px;
   }
 }
+@media only screen and (max-width: 500px) {
+  .rec-arrow {
+    padding: 10px !important;
+    font-size: 36px !important;
+    line-height: 32px !important;
+  }
+  .clientBox {
+    padding: 10px;
+  }
+  .clientBox svg {
+    width: 100%;
+  }
+  .clientData h2,
+  .clientData .email {
+    font-size: 14px;
+  }
+}
+
 @media only screen and (max-width: 400px) {
   .findHomeLink {
     display: block;

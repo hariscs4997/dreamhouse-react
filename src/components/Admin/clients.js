@@ -7,8 +7,14 @@ export default class Clients extends Component {
     state = {
         showDetail : false,
         showPrevHome : true,
-        heading : ''
+        heading : '',
+        breakPoints : [
+            { width: 1, itemsToShow: 1 ,itemsToScroll: 1, pagination: false},
+            { width: 768, itemsToShow: 2, itemsToScroll: 2  },
+            { width: 1024, itemsToShow: 2, itemsToScroll: 2  }
+        ]
     }
+    
     showRecommendation(){
         this.setState({
             showDetail : this.state.showDetail === false ? true : false,
@@ -32,7 +38,7 @@ export default class Clients extends Component {
                 <div className="slider">
                 {!this.state.showDetail ? 
                     <div className="row">
-                        <Carousel itemsToShow={2} pagination={false}>
+                        <Carousel breakPoints={this.state.breakPoints}>
                         <div className="col-12 col-sm-12 col-md-12">
                             <div className="clientBox">
                                 <svg width="166" height="148" viewBox="0 0 166 148" fill="none" xmlns="http://www.w3.org/2000/svg">

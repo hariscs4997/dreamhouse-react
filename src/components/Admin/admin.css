@@ -274,6 +274,9 @@ aside ul li a.active {
   .svgWidth {
     width: 100px;
   }
+  .addNewClient {
+    width: 100%;
+  }
   .admindashboard aside {
     padding: 10px 15px;
   }

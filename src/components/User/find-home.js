@@ -100,13 +100,13 @@ export default class Findhome extends Component {
                             </div>
                         </div>
                         <div className="row htmlForm-group">
-                        <div className="col-12 col-sm-4">
+                        <div className="col-4">
                             <button type="button" className="btnstyle btnback">REFRESH</button>
                         </div>
-                        <div className="col-12 col-sm-4 text-center">
+                        <div className="col-4 text-center">
                             <button type="button" className="btnstyle btnback">UPLOAD</button>
                         </div>
-                        <div className="col-12 col-sm-4 text-right">
+                        <div className="col-4 text-right">
                             <button type="button" className="btnstyle btnNext" onClick={() => {this.next()}}>NEXT</button>
                         </div>
                     </div>  
@@ -155,13 +155,13 @@ export default class Findhome extends Component {
                             </div>
                         </div>
                         <div className="row htmlForm-group">
-                        <div className="col-12 col-sm-4">
+                        <div className="col-4">
                             <button type="button" className="btnstyle btnback">REFRESH</button>
                         </div>
-                        <div className="col-12 col-sm-4 text-center">
+                        <div className="col-4 text-center">
                             <button type="button" className="btnstyle btnback">UPLOAD</button>
                         </div>
-                        <div className="col-12 col-sm-4 text-right">
+                        <div className="col-4 text-right">
                             <button type="button" className="btnstyle btnNext" onClick={() => {this.next()}}>NEXT</button>
                         </div>
                     </div>  
@@ -209,13 +209,13 @@ export default class Findhome extends Component {
                             </div>
                         </div>
                         <div className="row htmlForm-group">
-                        <div className="col-12 col-sm-4">
+                        <div className="col-4">
                             <button type="button" className="btnstyle btnback">REFRESH</button>
                         </div>
-                        <div className="col-12 col-sm-4 text-center">
+                        <div className="col-4 text-center">
                             <button type="button" className="btnstyle btnback">UPLOAD</button>
                         </div>
-                        <div className="col-12 col-sm-4 text-right">
+                        <div className="col-4 text-right">
                             <button type="button" className="btnstyle btnNext" onClick={() => {this.next()}}>NEXT</button>
                         </div>
                     </div>  
@@ -262,13 +262,13 @@ export default class Findhome extends Component {
                             </div>
                         </div>
                         <div className="row htmlForm-group">
-                        <div className="col-12 col-sm-4">
+                        <div className="col-4">
                             <button type="button" className="btnstyle btnback">REFRESH</button>
                         </div>
-                        <div className="col-12 col-sm-4 text-center">
+                        <div className="col-4 text-center">
                             <button type="button" className="btnstyle btnback">UPLOAD</button>
                         </div>
-                        <div className="col-12 col-sm-4 text-right">
+                        <div className="col-4 text-right">
                             <button type="button" className="btnstyle btnNext" onClick={() => {this.next()}}>NEXT</button>
                         </div>
                     </div>  
@@ -291,7 +291,7 @@ export default class Findhome extends Component {
                             
                         </div>
                         <div className="row form-group">
-                        {/* <div className="col-12 col-sm-4">
+                        {/* <div className="col-4">
                             <button type="button" className="btnstyle btnback">REFRESH</button>
                         </div> */}
                         <div className="col-12 text-right">

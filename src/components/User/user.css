@@ -10,7 +10,7 @@
 aside ul {
   padding: 0;
 }
-.position-relative{
+.position-relative {
   position: relative;
 }
 aside ul li {
@@ -254,10 +254,10 @@ aside ul li a.active {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-weight:700;
+  font-weight: 700;
 }
-.no-background{
-  border:none;
+.no-background {
+  border: none;
   background-color: transparent;
 }
 .arrownDiv .arrowBtn {
@@ -325,9 +325,25 @@ aside ul li a.active {
 .PrivateValueLabel-offset-4 {
   top: -20px !important;
 }
-
+@media only screen and (max-width: 992px) {
+  .mainDetailBox.userSideBox {
+    width: 80%;
+  }
+}
 @media only screen and (max-width: 767px) {
   .svgWidth {
     width: 100px;
+  }
+  .findHome {
+    width: 100%;
+  }
+  .mainDetailBox.userSideBox {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .dataList li .dataListP {
+    margin-top: 20px;
+    margin-bottom: 0;
   }
 }
