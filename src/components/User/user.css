@@ -347,6 +347,9 @@ aside ul li a.active {
     margin-top: 20px;
     margin-bottom: 0;
   }
+  .centered{
+    left: 38%;
+  }
   .btnstyle {
     padding: 5px 15px;
     font-size: 13px;
