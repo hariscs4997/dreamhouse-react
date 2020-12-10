@@ -1,8 +1,23 @@
 import { faHeart, faHome, faLink } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { Component } from 'react';
+import {Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 
 export default class Dashboard extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+          modal: false
+        };
+    
+        this.toggle = this.toggle.bind(this);
+      }
+    
+      toggle() {
+        this.setState({
+          modal: !this.state.modal
+        });
+      }
     render() {
         return (
             <section className="dashboard">
@@ -51,12 +66,22 @@ export default class Dashboard extends Component {
                         </div>
                     </div>
                     <div className="col-12 mt-3 bottomData">
-                        <p><FontAwesomeIcon icon={faHome} />Previous Home Tours </p>
-                        <p><FontAwesomeIcon icon={faHeart} />Recommended Homes </p>
-                        <p><FontAwesomeIcon icon={faLink} />Message Your Realtor </p>
-                        <p><FontAwesomeIcon icon={faHeart} />Liked Images</p>
+                        <p><FontAwesomeIcon  icon={faHome}  /><a className="black-shade" onClick={this.toggle}> Previous Home Tours</a> </p>
+                        <p><FontAwesomeIcon icon={faHeart}  /><a className="black-shade" onClick={this.toggle}> Recommended Homes </a> </p>
+                        <p><FontAwesomeIcon icon={faLink}  /><a className="black-shade" onClick={this.toggle}>Message Your Realtor</a> </p>
+                        <p><FontAwesomeIcon icon={faHeart}  /><a className="black-shade" onClick={this.toggle}>Liked Images </a></p>
                     </div>
                 </div>
+                <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
+          <ModalHeader toggle={this.toggle}>Modal title</ModalHeader>
+          <ModalBody>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </ModalBody>
+          {/* <ModalFooter>
+            <Button color='primary' onClick={this.toggle}>Do Something</Button>{' '}
+            <Button color='secondary' onClick={this.toggle}>Cancel</Button>
+          </ModalFooter> */}
+        </Modal>
             </section>
         )
     }

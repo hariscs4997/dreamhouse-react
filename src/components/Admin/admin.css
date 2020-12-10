@@ -163,6 +163,9 @@ aside ul li a.active {
   font-weight: 300;
   margin-bottom: 5px;
 }
+.hover:hover{
+  cursor: pointer;
+}
 
 .clientBox {
   background: #ffffff;

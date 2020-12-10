@@ -20,7 +20,7 @@ export default class Findhome extends Component {
         }else if(this.state.stepActive === 3) {
             this.setState({
                 stepActive : 4,
-                heading : 'What is Your Master Bedroom Style?',
+                heading : 'What is Your Bathroom Style?',
             })
         }else if(this.state.stepActive === 4) {
             this.setState({
@@ -288,7 +288,10 @@ export default class Findhome extends Component {
                                 <input type="checkbox" id="cb38" />
                                 <button className="no-background"><img alt="img" src={`${process.env.PUBLIC_URL}/assets/rectangle.png`}  /><div className="centered">Master Bedroom</div></button>
                             </div>
-                            
+                            <div className="col-6 col-sm-4 mb-3 mx-auto">
+                                <input type="checkbox" id="cb38" />
+                                <button className="no-background"><img alt="img" src={`${process.env.PUBLIC_URL}/assets/rectangle.png`}  /><div className="centered">Bathroom</div></button>
+                            </div>
                         </div>
                         <div className="row form-group">
                         {/* <div className="col-4">

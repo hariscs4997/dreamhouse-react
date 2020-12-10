@@ -307,7 +307,7 @@ export default class Clients extends Component {
                                     <li>
                                         <div className="row active">
                                             <div className="col-12 col-sm-6 col-md-3 text-center">
-                                                <img alt="img" src={`${process.env.PUBLIC_URL}/assets/1.png`}  />
+                                                <img className="hover" alt="img" src={`${process.env.PUBLIC_URL}/assets/1.png`}  />
                                             </div>
                                             <div className="col-12 col-sm-6 col-md-9 text-center">
                                                 <p className="dataListP"> 98% Match <br />
@@ -319,7 +319,7 @@ export default class Clients extends Component {
                                     </li>
                                     <li className="row">
                                         <div className="col-12 col-sm-6 col-md-3 text-center">
-                                            <img alt="img" src={`${process.env.PUBLIC_URL}/assets/2.png`}  />
+                                            <img className="hover" alt="img" src={`${process.env.PUBLIC_URL}/assets/2.png`}  />
                                         </div>
                                         <div className="col-12 col-sm-6 col-md-9 text-center">
                                             <p className="dataListP"> 95% Match <br />
@@ -330,7 +330,7 @@ export default class Clients extends Component {
                                     </li>
                                     <li className="row">
                                         <div className="col-12 col-sm-6 col-md-3 text-center">
-                                            <img alt="img" src={`${process.env.PUBLIC_URL}/assets/3.png`}  />
+                                            <img className="hover" alt="img" src={`${process.env.PUBLIC_URL}/assets/3.png`}  />
                                         </div>
                                         <div className="col-12 col-sm-6 col-md-9 text-center">
                                             <p className="dataListP"> 88% Match <br />
@@ -341,7 +341,7 @@ export default class Clients extends Component {
                                     </li>
                                     <li className="row">
                                         <div className="col-12 col-sm-6 col-md-3 text-center">
-                                            <img alt="img" src={`${process.env.PUBLIC_URL}/assets/4.png`}  />
+                                            <img className="hover" alt="img" src={`${process.env.PUBLIC_URL}/assets/4.png`}  />
                                         </div>
                                         <div className="col-12 col-sm-6 col-md-9 text-center">
                                             <p className="dataListP"> 98% Match <br />
@@ -356,7 +356,7 @@ export default class Clients extends Component {
                                     <li>
                                         <div className="row active">
                                             <div className="col-12 col-sm-6 col-md-3 text-center">
-                                            <img alt="img" src={`${process.env.PUBLIC_URL}/assets/4.png`}  />
+                                            <img className="hover" alt="img" src={`${process.env.PUBLIC_URL}/assets/4.png`}  />
                                             </div>
                                             <div className="col-12 col-sm-6 col-md-9 text-center">
                                                 <p className="dataListP"> 94% Match <br />
@@ -368,7 +368,7 @@ export default class Clients extends Component {
                                     </li>
                                     <li className="row">
                                         <div className="col-12 col-sm-6 col-md-3 text-center">
-                                        <img alt="img" src={`${process.env.PUBLIC_URL}/assets/3.png`}  />
+                                        <img className="hover" alt="img" src={`${process.env.PUBLIC_URL}/assets/3.png`}  />
                                         </div>
                                         <div className="col-12 col-sm-6 col-md-9 text-center">
                                             <p className="dataListP"> 95% Match <br />
@@ -379,7 +379,7 @@ export default class Clients extends Component {
                                     </li>
                                     <li className="row">
                                         <div className="col-12 col-sm-6 col-md-3 text-center">
-                                        <img alt="img" src={`${process.env.PUBLIC_URL}/assets/2.png`}  />
+                                        <img className="hover" alt="img" src={`${process.env.PUBLIC_URL}/assets/2.png`}  />
                                         </div>
                                         <div className="col-12 col-sm-6 col-md-9 text-center">
                                             <p className="dataListP"> 88% Match <br />
@@ -390,7 +390,7 @@ export default class Clients extends Component {
                                     </li>
                                     <li className="row">
                                         <div className="col-12 col-sm-6 col-md-3  text-center">
-                                        <img alt="img" src={`${process.env.PUBLIC_URL}/assets/1.png`}  />
+                                        <img className="hover" alt="img" src={`${process.env.PUBLIC_URL}/assets/1.png`}  />
                                         </div>
                                         <div className="col-12 col-sm-6 col-md-9 text-center">
                                             <p className="dataListP"> 98% Match <br />

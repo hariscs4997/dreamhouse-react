@@ -35,6 +35,12 @@ aside ul li a.active {
   height: 100%;
   margin-top: 1rem !important;
 }
+.modal-body, .black-shade{
+  color:#262628 !important;
+}
+.black-shade:hover{
+  cursor: pointer;
+}
 .svgWidth {
   width: 100%;
 }
@@ -48,6 +54,9 @@ aside ul li a.active {
   font-size: 24px;
   color: #262628;
   font-weight: bold;
+}
+.hover:hover{
+  cursor: pointer;
 }
 .data address {
   color: #292929;
@@ -346,9 +355,6 @@ aside ul li a.active {
   .dataList li .dataListP {
     margin-top: 20px;
     margin-bottom: 0;
-  }
-  .centered{
-    left: 38%;
   }
   .btnstyle {
     padding: 5px 15px;
